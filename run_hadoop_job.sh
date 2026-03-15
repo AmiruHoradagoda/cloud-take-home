@@ -68,13 +68,13 @@ echo "✅ MapReduce execution finished successfully."
 
 # 7. Collect and display output
 echo "⏳ Formatting and fetching results..."
-docker exec $CONTAINER_NAME bash -c "$HDFS_BIN dfs -cat /output_java/part-r-00000" > output_results.txt
+docker exec $CONTAINER_NAME bash -c "$HDFS_BIN dfs -cat /output_java/part-r-00000" > results.txt
 
 echo "================================================="
 echo "            MAPREDUCE PROCESS COMPLETE           "
 echo "================================================="
 echo "Top 10 Results Preview:"
-head -n 10 output_results.txt
+head -n 10 results.txt
 
 echo ""
-echo "Full results have been saved locally to 'output_results.txt'."
+echo "Full results have been saved locally to 'results.txt'."
