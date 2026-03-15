@@ -1,0 +1,33 @@
+2026-03-15 05:29:13,685 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-03-15 05:29:14,834 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-03-15 05:29:15,166 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032
+2026-03-15 05:29:16,311 INFO input.FileInputFormat: Total input files to process : 1
+2026-03-15 05:29:16,344 INFO mapreduce.JobSubmitter: number of splits:1
+2026-03-15 05:29:17,049 INFO impl.YarnClientImpl: Submitted application application_1773552176573_0002
+2026-03-15 05:29:17,094 INFO mapreduce.Job: The url to track the job: http://d9a891782017:8088/proxy/application_1773552176573_0002/
+2026-03-15 05:29:17,095 INFO mapreduce.Job: Running job: job_1773552176573_0002
+2026-03-15 05:29:22,238 INFO mapreduce.Job: Job job_1773552176573_0002 running in uber mode : false
+2026-03-15 05:29:22,240 INFO mapreduce.Job:  map 0% reduce 0%
+2026-03-15 05:29:34,424 INFO mapreduce.Job:  map 100% reduce 0%
+2026-03-15 05:29:39,471 INFO mapreduce.Job:  map 100% reduce 100%
+2026-03-15 05:29:40,517 INFO mapreduce.Job: Job job_1773552176573_0002 completed successfully
+2026-03-15 05:29:40,587 INFO mapreduce.Job: Counters: 54
+        File System Counters
+                FILE: Number of bytes read=9143613
+                FILE: Number of bytes written=18925726
+                HDFS: Number of bytes read=76026847
+                HDFS: Number of bytes written=372
+        Job Counters 
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Total time spent by all map tasks (ms)=16475
+                Total time spent by all reduce tasks (ms)=1771
+        Map-Reduce Framework
+                Map input records=474420
+                Map output records=564384
+                Reduce input records=564384
+                Reduce output records=19
+        File Input Format Counters 
+                Bytes Read=76026847
+        File Output Format Counters 
+                Bytes Written=372
